@@ -1,0 +1,64 @@
+.navbar-master-con {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+
+}
+.navbar-child {
+    display: inline-block; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(2, 231, 150);
+}
+.brand-link {
+    margin-top: 2vh;
+    text-decoration: none;
+    margin-left: 4vw; 
+    margin-bottom: 2vh; 
+    font-size: 5vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: black; 
+    font-weight: 750;
+    
+}
+.brand-link:active {
+    transform: scale(.90)
+}
+.brand {
+    height: 8vh;
+    margin-right: -7px;
+}
+.button-con {
+    position: relative; 
+    float: right; 
+    display: flex;
+    margin-top: 4.5vh; 
+    margin-right: 2vw;  
+    align-items: center; 
+    justify-content: center; 
+    
+    
+}
+.login {
+    background-color: transparent; 
+    color: black; 
+    font-size: 4vh; 
+    border: none; 
+    display: inline-block; 
+    align-items: center; 
+    justify-content: center;
+}
+.login:active {
+    transform: scale(.90); 
+}
+.login:hover {
+    color: white; 
+    cursor: pointer;
+}
+.home-link {
+    display: inline-block; 
+    flex-direction: row;  
+}
